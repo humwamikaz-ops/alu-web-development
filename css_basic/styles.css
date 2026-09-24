@@ -1,0 +1,63 @@
+/* Task 1: layout with Flexbox */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+}
+
+aside {
+	flex: 1;
+	overflow-y: auto;
+}
+
+/* Task 3: colors and looks (no positioning) */
+body {
+	background-color: #fdf6ec;
+	color: #2b2b2b;
+}
+
+header {
+	background-color: #7a1f3d;
+}
+
+header a {
+	color: #ffffff;
+}
+
+header li.logo {
+	color: #f5c542;
+}
+
+article h1 {
+	color: #7a1f3d;
+	border-bottom: 3px solid #f5c542;
+}
+
+article h2, article h3 {
+	color: #a33a5b;
+}
+
+aside {
+	background-color: #f3e3d3;
+	border-left: 2px solid #7a1f3d;
+}
+
+footer {
+	background-color: #2b2b2b;
+	color: #ffffff;
+}
+
+footer a {
+	color: #f5c542;
+}
